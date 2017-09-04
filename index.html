@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- style is for css -->
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+    </style>
+
+  </head>
+  <body>
+
+      <div id="app" class="center">
+
+        <div id="headers">
+          <!-- Title and subtitles! -->
+          <h1>Guessing Game</h1>
+          <h2>Guess a number from 1 to 100</h2>
+        </div>
+
+        <div id="main">
+          <div id="input-parent">
+            <!-- Player's guess input, and submit button -->
+            <input id="player-input" placeholder="#"
+            maxlength="3" autofocus=autofocus></input>
+            <button id="submit">Enter guess...</button>
+          </div>
+
+          <div id="guesses">
+            <!-- unordered list of guesses -->
+            <!-- list elements? -->
+            <ul id="guess-list">
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id="reset">Reset</button>
+            <button id="hint">Hint</button>
+          </div>
+        </div>
+
+      </div>
+
+    <div id="footer" class="center">
+        <div class="row">
+
+          <div class="col-sm-4">
+            <img src="fa-logo@2x.png"></img>
+          </div>
+
+          <div class="col-sm-4">
+            <h3>Project by Douglas Chin</h3>
+          </div>
+
+          <div class="col-sm-4">
+            <img src="grace_hopper_academy.png"></img>
+          </div>
+
+        </div>
+    </div>
+
+  </body>
+</html>
