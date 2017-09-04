@@ -5,28 +5,27 @@
 
     <!-- style is for css -->
     <!-- Bootstrap and CSS here-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <style>
-    </style>
+    <!-- "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" -->
+    <link rel="stylesheet" type="text/css" href="/home/leibowitz/guessinggame_p3/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/home/leibowitz/guessinggame_p3/css/style.css">
 
   </head>
-  <body>
+  <body id="bg">
 
-      <div id="app" class="center">
+      <div id="app" class="container center">
 
         <div id="headers">
           <!-- Title and subtitles! -->
-          <h1>Guessing Game</h1>
-          <h2>Guess a number from 1 to 100</h2>
+          <h1 id="title">Guessing Game</h1>
+          <h2 id="subtitle">Guess a number from 1 to 100</h2>
         </div>
 
         <div id="main">
           <div id="input-parent">
             <!-- Player's guess input, and submit button -->
-            <input id="player-input" placeholder="#"
+            <input id="player-input" class="center" placeholder="#"
             maxlength="3" autofocus=autofocus></input>
-            <button id="submit">Enter guess...</button>
+            <button id="submit" class="btn btn-success">Enter</button>
           </div>
 
           <div id="guesses">
@@ -42,8 +41,8 @@
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button id="reset">Reset</button>
-            <button id="hint">Hint</button>
+            <button id="reset" class="btn btn-large center">Reset</button>
+            <button id="hint" class="btn btn-large center">Hint</button>
           </div>
         </div>
 
@@ -53,7 +52,7 @@
         <div class="row">
 
           <div class="col-sm-4">
-            <img src="fa-logo@2x.png"></img>
+            <img src="/home/leibowitz/guessinggame_p3/img/fa-logo@2x.png"></img>
           </div>
 
           <div class="col-sm-4">
@@ -61,7 +60,7 @@
           </div>
 
           <div class="col-sm-4">
-            <img src="grace_hopper_academy.png"></img>
+            <img src="/home/leibowitz/guessinggame_p3/img/grace_hopper_academy.png"></img>
           </div>
 
         </div>
