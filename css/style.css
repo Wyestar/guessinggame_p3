@@ -70,7 +70,13 @@ img {
   border: 1px solid black;
 }
 
-#hints {
+#hintlowhigh {
+  color: blue;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#hintarray {
   color: blue;
   background-color: white;
   border: 1px solid black;
